@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1524475426 source:c:\users\guojian\desktop\kcptun_adapt\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1524628869 source:f:\我的坚果云\kcptun_adapt\main.c
+	<stdio.h>
+	<stdlib.h>
+	<getopt.h>
+
