@@ -16,7 +16,9 @@ kcptun与shadowsocks接口之间的适配器，来使kcptun支持shadowsocks的�
 - 加密：ss的加密方法
 - 插件：kcptun适配器的名字，我的是重命名为kcptun_adapt.exe
 - 插件选项：kcptun的启动选项，其中--localaddr(-l)，--remoteaddr(-r)不需要填写，我这里是填入了mode，crypt，key三个参数。
-         参数填入的格式是key1=value1;key2=value2...
+         参数填入的格式是key1=value1;key2=value2...
+- 使用时将kcptun客户端程序重命名为kcptun.exe(windows)或者kcptun(linux),放到adapt_adapt所在的目录
+- 建议将kcptun.exe，adapt_adapt.exe，Shadowsocks.exe三个放在同一目录下
 
 ![配置方法](https://github.com/DaPangR/kcptun_adapt/blob/master/configure.jpg)
 
